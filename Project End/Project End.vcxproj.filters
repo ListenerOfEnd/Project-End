@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\Main.cpp" />
+    <ClCompile Include="Source\Base\Base.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Trace\Trace.cpp">
+      <Filter>Trace</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AIManager\AIManager.cpp">
+      <Filter>Base\AIManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AI\AI.cpp">
+      <Filter>Base\AIManager\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Memory\Memory.cpp">
+      <Filter>Base\MemoryManager\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MemoryManager\MemoryManager.cpp">
+      <Filter>Base\MemoryManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Response\Response.cpp">
+      <Filter>Base\ConversationManager\Phrase\Response</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Phrase\Phrase.cpp">
+      <Filter>Base\ConversationManager\Phrase</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ConversationManager\ConversationManager.cpp">
+      <Filter>Base\ConversationManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Random\Random.cpp">
+      <Filter>Base\Random</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Text\Text.cpp">
+      <Filter>Base\AIManager\AI\TextRecognizer\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TextRecognizer\TextRecognizer.cpp">
+      <Filter>Base\AIManager\AI\TextRecognizer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Base">
+      <UniqueIdentifier>{ca8f144c-23b1-4360-a2af-cc1fee593d96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Trace">
+      <UniqueIdentifier>{03a05e82-797c-4d34-bb2b-83d23a4da94c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\AIManager">
+      <UniqueIdentifier>{99c34da0-b408-4e3b-8441-f5a56cf724cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\AIManager\AI">
+      <UniqueIdentifier>{57b1040f-3e68-48a3-9eb0-473ba95d7104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global Defines">
+      <UniqueIdentifier>{c934c12f-7478-4064-88fa-440a94b25bb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\MemoryManager">
+      <UniqueIdentifier>{9939cd13-fb3b-42c4-870f-858c0cc7e554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\MemoryManager\Memory">
+      <UniqueIdentifier>{ec10ea6a-a3c6-4107-80be-663258650881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\ConversationManager">
+      <UniqueIdentifier>{fd22cef0-adc1-4e03-a4f9-04efc4bc9680}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\ConversationManager\Phrase">
+      <UniqueIdentifier>{0f7fcbd7-7fb5-400d-a2e9-9469c5c194d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\ConversationManager\Phrase\Response">
+      <UniqueIdentifier>{80e76a7d-d3d5-4cd9-a2c5-24adabc0a0a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Random">
+      <UniqueIdentifier>{2a86ec66-a4a8-468e-a251-721f1d5e77db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\AIManager\AI\TextRecognizer">
+      <UniqueIdentifier>{0346ad40-884a-4e5b-9cce-4618e83ffc99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\AIManager\AI\TextRecognizer\Text">
+      <UniqueIdentifier>{31e48771-3d29-40b8-988b-ba13080a0926}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Base\Base.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Trace\Trace.h">
+      <Filter>Trace</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AIManager\AIManager.h">
+      <Filter>Base\AIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AI\AI.h">
+      <Filter>Base\AIManager\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GlobalDefines.hpp">
+      <Filter>Global Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MemoryManager\MemoryManager.h">
+      <Filter>Base\MemoryManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Memory\Memory.h">
+      <Filter>Base\MemoryManager\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ConversationManager\ConversationManager.h">
+      <Filter>Base\ConversationManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Phrase\Phrase.h">
+      <Filter>Base\ConversationManager\Phrase</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Response\Response.h">
+      <Filter>Base\ConversationManager\Phrase\Response</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Random\Random.h">
+      <Filter>Base\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TextRecognizer\TextRecognizer.h">
+      <Filter>Base\AIManager\AI\TextRecognizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Text\Text.h">
+      <Filter>Base\AIManager\AI\TextRecognizer\Text</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Source\Notes.txt" />
+  </ItemGroup>
+</Project>

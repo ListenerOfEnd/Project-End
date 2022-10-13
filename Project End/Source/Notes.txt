@@ -1,0 +1,29 @@
+## NOTES ##
+
+END (Project End) stands for Extra-Nascent Dependant.
+
+Clearing a file.
+
+Open it with the trunc tag.
+		std::ofstream file;
+		file.open([path], std::ofstream::out | std::ofstream::trunc);
+
+
+Memory files are formatted as such:
+
+[ID]|[topic]|[MemoryType (int)]|
+
+0 = INVALID
+1 = Happy
+2 = Sad
+3 = Angry
+
+
+Dealing with Memory Usage:
+
+If I find anyone that modifies this code using smart pointers, I'm going to find you and
+	erase your fingers.
+
+Phrases file is formatted as such:
+
+[Parent phrase]|[response]:[response]:>
